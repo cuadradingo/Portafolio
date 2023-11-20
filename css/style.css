@@ -1,0 +1,184 @@
+
+html {
+  scroll-padding-top: 60px; 
+  scroll-behavior: smooth;
+  background-image: url(../images/fondo.png);
+}
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #fffefe;
+}
+
+.aboutmeh3{
+  margin: 0px !important;
+  letter-spacing: 1px;
+}
+
+.titulos{
+  margin: 0px !important;
+  letter-spacing: 1px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #ffffff;
+}
+
+.carousel .carousel-item {
+  width:400px !important;
+}
+
+.myhighlight{
+  border-radius: 5px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.mytitle{
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.mysubtitle{
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.mysubtitle2{
+  letter-spacing: 1px;
+}
+
+.mycontact{
+  margin-bottom: 0px;
+  font-size: 19px;
+  text-decoration: underline;
+}
+
+.aboutme{
+  font-size: 19px;
+  text-align:justify !important;
+  text-justify: inter-word !important;
+
+}
+
+.imagen-circular {
+  border-radius: 50%;
+  width: 200px;
+  display: table; 
+  margin: auto;
+  border: 10px solid #fcede4;
+}
+
+.progress{
+  height: 15px;
+}
+
+#imgyo{
+  width: 30%;
+  height: 30%;
+  border-radius: 3%;
+}
+
+.percentage-circle {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+
+.icono{
+  color: rgb(255, 255, 255) !important;
+}
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 600px) {
+  .myimage{
+  height: 100px;
+  }
+
+  .aboutmeh3{
+    font-size: 30px;
+  }
+
+  .aboutme{
+    text-align: justify !important;
+    text-justify: auto !important;
+  } 
+}
+
+        #contacto .contenedor-form .fila {
+            margin-bottom: 15px;
+        }
+        
+        #contacto .contenedor-form .mitad {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #contacto .contenedor-form input,
+        #contacto .contenedor-form textarea {
+            padding: 20px;
+            border-radius: 20px;
+            border: none;
+            border: 1px solid #919191;
+        }
+        
+        #contacto .contenedor-form .mitad input {
+            width: 48%;
+            margin-right: 7px;
+        }
+        
+        #contacto .contenedor-form .input-full {
+            width: 95%;
+        }
+        
+        #contacto .btn-enviar {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            transition: .5s;
+            padding: 10px 15px !important;
+        }
+        
+        #contacto .btn-enviar:hover {
+            background-color: #ffb050;
+            color: #fff;
+        }
+
+
+footer.page-footer {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  
+  .brand-logo img {
+    display: none;
+  }
+
+  .imagen-circular{
+    margin-top: 100px;
+  }
+
+}
+
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center; 
+  margin-left: 4%;
+}
+h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
